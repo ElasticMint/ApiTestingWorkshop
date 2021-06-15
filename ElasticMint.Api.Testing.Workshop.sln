@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1E6F56E9-B8B5-46EB-B164-ED43B556C33E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{8CD2FCCA-9B9B-40EC-9208-792EA0FB90C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mongo", "Mongo", "{FC8BAA56-E0C8-443A-848C-B59F1568FFAD}"
+	ProjectSection(SolutionItems) = preProject
+		mongo-init.js = mongo-init.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DC43FFA2-2CED-4622-8710-97F6B9E32288}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElasticMint.Api.Test.Workshop.Api", "ElasticMint.Api.Test.Workshop.Api\ElasticMint.Api.Test.Workshop.Api.csproj", "{E390694D-E54C-4DE9-BD29-4B5392D0103F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticMint.Api.Tests.Workshop.Api.Tests.Unit", "ElasticMint.Api.Tests.Workshop.Api.Tests.Unit\ElasticMint.Api.Tests.Workshop.Api.Tests.Unit.csproj", "{03A3658E-4D1B-4E01-AEA7-CDDAD8996A2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticMint.Api.Tests.Workshop.Api.Tests.Functional", "ElasticMint.Api.Tests.Workshop.Api.Tests.Functional\ElasticMint.Api.Tests.Workshop.Api.Tests.Functional.csproj", "{BBC473A1-35AF-421E-A1CC-B68EFC798CAE}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FD67B13A-0CB4-44FD-8E39-BFA08ED92E8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E390694D-E54C-4DE9-BD29-4B5392D0103F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E390694D-E54C-4DE9-BD29-4B5392D0103F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E390694D-E54C-4DE9-BD29-4B5392D0103F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E390694D-E54C-4DE9-BD29-4B5392D0103F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A3658E-4D1B-4E01-AEA7-CDDAD8996A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A3658E-4D1B-4E01-AEA7-CDDAD8996A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A3658E-4D1B-4E01-AEA7-CDDAD8996A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A3658E-4D1B-4E01-AEA7-CDDAD8996A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBC473A1-35AF-421E-A1CC-B68EFC798CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC473A1-35AF-421E-A1CC-B68EFC798CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC473A1-35AF-421E-A1CC-B68EFC798CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC473A1-35AF-421E-A1CC-B68EFC798CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD67B13A-0CB4-44FD-8E39-BFA08ED92E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD67B13A-0CB4-44FD-8E39-BFA08ED92E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD67B13A-0CB4-44FD-8E39-BFA08ED92E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD67B13A-0CB4-44FD-8E39-BFA08ED92E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03A3658E-4D1B-4E01-AEA7-CDDAD8996A2B} = {1E6F56E9-B8B5-46EB-B164-ED43B556C33E}
+		{BBC473A1-35AF-421E-A1CC-B68EFC798CAE} = {1E6F56E9-B8B5-46EB-B164-ED43B556C33E}
+		{FD67B13A-0CB4-44FD-8E39-BFA08ED92E8F} = {8CD2FCCA-9B9B-40EC-9208-792EA0FB90C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4A93422-5B04-4F56-BFEA-D1D831C0871E}
+	EndGlobalSection
+EndGlobal
