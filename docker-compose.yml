@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  elasticmint.api.test.workshop.api:
+    image: ${DOCKER_REGISTRY-}elasticmintapitestworkshopapi
+    build:
+      context: .
+      dockerfile: ElasticMint.Api.Test.Workshop.Api/Dockerfile
